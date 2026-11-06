@@ -1,0 +1,12 @@
+Lab 20 - Daily Log Book
+
+Approach:
+Used append mode to add each log entry with a newline, then read mode to display numbered entries and their total count. Included two sample office entries and only initializes sample data when the file is absent.
+
+Validation and verification:
+Ran automated tests for appending to sample entries, numbered display and counts, preservation between two program runs, missing files, empty entries, file errors, and exit.
+The first appended entry produced 3 records. A second program run added a fourth while preserving the previous content.
+All tests passed. No errors were encountered in these test runs.
+
+Storage:
+daily_log.txt is saved in the current working directory. Existing files are not reset on startup.

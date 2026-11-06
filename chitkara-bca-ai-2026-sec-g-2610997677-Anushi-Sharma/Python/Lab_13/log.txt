@@ -1,0 +1,10 @@
+Lab Notes:
+
+1. Approach:
+Used a list with append, membership checking, remove, and sort inside a repeating menu.
+
+2. Verification:
+Verified adding Marker, alphabetical sorting, removing Pen, missing-item handling, empty-name rejection, invalid menu input, and exit.
+
+3. Errors Found During Verification:
+No failing cases were observed in the automated checks recorded above.

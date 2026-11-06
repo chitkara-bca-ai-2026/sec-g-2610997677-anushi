@@ -1,0 +1,10 @@
+Lab Notes:
+
+1. Approach:
+Used a nested dictionary keyed by roll number, with get, items, and pop for safe record operations.
+
+2. Verification:
+Verified listing, search, duplicate registration rejection, mark validation, semester update, deletion, and missing records. Marks averaging exactly 40 percent pass; 39 percent fail.
+
+3. Errors Found During Verification:
+No failing cases were observed in the automated checks recorded above.

@@ -1,0 +1,12 @@
+Lab 17 - Student Records Handling
+
+Approach:
+Used a dictionary keyed by roll number, with functions to add records, calculate results, and display a student. Listing and searching reuse display_student().
+
+Validation and verification:
+Ran automated tests for totals and averages, duplicate roll numbers, invalid marks, listing, adding, searching, a missing record, invalid menu choices, and exit.
+For marks [88, 91, 84], the total is 263 and the displayed average is 87.67%.
+All tests passed. No errors were encountered in these test runs.
+
+Storage:
+Student records are kept in memory for the current session.

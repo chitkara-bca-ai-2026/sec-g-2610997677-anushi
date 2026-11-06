@@ -1,0 +1,11 @@
+Lab 19 - Student Notes Management System
+
+Approach:
+Used with open() to save notes in write mode and read their full contents in read mode. Checked os.path.exists() for missing notes and handled file access errors.
+
+Validation and verification:
+Ran automated tests for a missing notes file, UTF-8 text, writing and reading, replacing previous notes, invalid menu choices, file errors, and exit.
+All tests passed. No errors were encountered in these test runs.
+
+Storage:
+notes.txt is saved in the current working directory. Saving notes replaces the previous content, as required by this lab; the menu labels this behavior.

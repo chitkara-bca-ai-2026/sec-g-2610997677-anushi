@@ -1,0 +1,10 @@
+Lab Notes:
+
+1. Approach:
+Used separate arithmetic functions returning results, defensive zero checks, a default exponent, and a list of calculation history strings. Numeric input is validated without try/except.
+
+2. Verification:
+Verified all six arithmetic functions, division and modulus by zero, blank exponent squaring, history, invalid numeric/menu input, invalid real powers, and power overflow rejection.
+
+3. Errors Found During Verification:
+No failing cases were observed in the automated checks recorded above.

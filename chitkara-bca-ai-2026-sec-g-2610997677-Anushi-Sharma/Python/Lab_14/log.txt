@@ -1,0 +1,10 @@
+Lab Notes:
+
+1. Approach:
+Stored book records as tuples and used sets for unique categories, wishlist requests, intersection, difference, and union.
+
+2. Verification:
+Verified adding a book updates category coverage, duplicate wishlist genres stay unique, gap analysis is correct, empty fields are rejected, and exit works.
+
+3. Errors Found During Verification:
+No failing cases were observed in the automated checks recorded above.

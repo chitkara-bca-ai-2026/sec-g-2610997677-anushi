@@ -1,0 +1,11 @@
+Lab 18 - Mathematics Learning Tool
+
+Approach:
+Implemented factorial and Fibonacci with the required recursive steps and base cases. The menu validates non-negative integer input before calling the functions.
+
+Validation and verification:
+Ran automated tests for 0! = 1, 5! = 120, and the first 8 Fibonacci terms [0, 1, 1, 2, 3, 5, 8, 13]. Also tested zero terms, negative and non-numeric inputs, invalid menu choices, input limits, and exit.
+All tests passed. No errors were encountered in these test runs.
+
+Limit:
+The menu accepts factorial inputs up to 500 and Fibonacci requests up to 30 terms to keep this recursive demonstration within practical stack and runtime limits.
